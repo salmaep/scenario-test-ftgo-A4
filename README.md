@@ -14,7 +14,7 @@ Penambahan Order
      
 Perubahan Order
   1. Uji perubahan order yang order id nya tidak ada pada DB
-  2. Uji perubahan order yang order id nya ada tetapi menu yang direvisi nya tidak sesuai dengan yang di order
+  2. Uji perubahan order yang order id nya ada tetapi menu yang direvisi nya tidak ada pada DB
   3. Uji perubahan order yang order id nya ada dan menu yang direvisi nya sesuai dengan yang di order
      
 Pembatalan Order
