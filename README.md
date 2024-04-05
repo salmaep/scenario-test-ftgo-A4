@@ -1,6 +1,14 @@
 # Scenario Test FTGO Kelompok A4
 Repositori ini merupakan skenario test dan juga pengujian yang dilakukan pada aplikasi ftgo untuk memenuhi tugas mata kuliah PPLBO
 
+## Team Member
+1. Adinda Faayza Malika | 211524001
+2. Fardan Al Jihad | 211524009
+3. Muhamad Naufal Al Ghani | 211524016
+4. Muhammad Dyfan Ramadhan | 211524018
+5. Salma Edyna Putri | 211524025
+6. Tabitha Salsabila Permana | 211524028
+
 ## Endpoint 
 - Penambahan Order : POST /order
 - Perubahan Order: POST /order/{orderId}/revise
