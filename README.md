@@ -29,7 +29,7 @@ Pembatalan Order
 |    |                 |                                   | 2. Uji Revis Order dengan Order Id yang valid dan menu yang direvisi tidak sesuai dengan yang di-order |
 |    |                 |                                   | 3. Uji Create Order dengan Order Id yang invalid |
 |  2 |                 | Cek Fungsionalitas Revise Order   | 1. Uji Revise Order dengan Order Id yang valid dan menu yang direvisi sesuai dengan yang di-order |
-|    |                 |                                   | 2. Uji Revis Order dengan Order Id yang valid dan menu yang direvisi tidak sesuai dengan yang di-order |
+|    |                 |                                   | 2. Uji Revis Order dengan Order Id yang valid dan menu yang direvisi tidak ada pada DB |
 |    |                 |                                   | 3. Uji Create Order dengan Order Id yang invalid |
 |  3 |                 | Cek Fungsionalitas Cancel Order   | 1. Uji Cancel Order dengan Order Id yang valid |
 |    |                 |                                   | 2. Uji Cancel Order dengan Order Id yang invalid |
