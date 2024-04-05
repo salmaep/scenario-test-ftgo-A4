@@ -90,7 +90,7 @@ Pembatalan Order
 
 ## Pengujian 
 
-- ## Creat Order
+- ### Creat Order
   
   Sebelum membuat pesanan, perlu menambahkan data consumer dan data restaurant terlebih dahulu untuk menguji Create Order dengan consumer id dan restaurant id yang valid.
   * Membuat data consumer (POST /consumers create)
@@ -307,7 +307,7 @@ Pembatalan Order
 
     ![image](gambar/createOrderNo5GET.jpg)
 
-- ## Revise Order
+- ### Revise Order
   
   #### 1. Uji Revise Order dengan Order Id yang valid dan menu yang direvisi sesuai dengan yang di-order
   - POST /orders/{orderId}/revise
@@ -445,7 +445,7 @@ Pembatalan Order
 
     ![image](gambar/reviseOrderNo4.jpg)
 
-- ## Cancel Order
+- ### Cancel Order
   
   #### 1. Uji Cancel Order dengan Order Id yang valid
 
