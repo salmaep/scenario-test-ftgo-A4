@@ -219,8 +219,8 @@ Pembatalan Order (cancel order)
     | **Preconditions** | -             | 
     | **Steps To Execute** | 1. Akses Swagger UI pada localhost:8082/swagger-ui/index.html<br>2. Klik order-controller<br>3. Klik POST /orders<br>4. Klik Try it Out<br>5. Input test data pada request body<br>6. Klik tombol "Execute" |
     | **Test Data** | <pre lang="json">{&#13;  "consumerId": 1,&#13;  "deliveryAddress": {&#13;    "city": "Bandung",&#13;    "street1": "Jl. Asia Afrika",&#13;    "zip": "40111"&#13;  },&#13;  "deliveryTime": "2024-04-05T07:31:02.414Z",&#13;  "lineItems": [&#13;    {&#13;      "menuItemId": "1",&#13;      "quantity": 1&#13;    }&#13;  ],&#13;  "restaurantId": 1&#13;}</pre>|
-    | **Expected Result** | </pre> Response Body:<br><pre lang="json">{&#13; "orderId" : 3, &#13; "state" : "APPROVED", &#13; "orderTotal : 1.20"&#13;}|
-    | **Actual Result** | </pre> Response Body:<br><pre lang="json">{&#13; "orderId" : 3, &#13; "state" : "APPROVED", &#13; "orderTotal : 1.20"&#13;} |
+    | **Expected Result** | </pre> Response Body:<br><pre lang="json">{&#13; "orderId" : 3, &#13; "state" : "APPROVED", &#13; "orderTotal" : 1.20&#13;}|
+    | **Actual Result** | </pre> Response Body:<br><pre lang="json">{&#13; "orderId" : 3, &#13; "state" : "APPROVED", &#13; "orderTotal" : 1.20&#13;} |
     | **Test Result** | PASS |
     | **Screenshot Hasil** | *POST /orders create*<br>![image](gambar/createOrderNo5.jpg)<br><br>*GET /orders/{orderId} getOrder untuk melihat order state*<br>![image](gambar/createOrderNo5GET.jpg) |  
 
