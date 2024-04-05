@@ -15,19 +15,22 @@ Repositori ini merupakan skenario test dan juga pengujian yang dilakukan pada ap
 - Pembatalan Order: POST /order/{orderId}/cancel
 
 ## Scenario Test
-Penambahan Order
-  1. Uji penambahan order yang data consumer id nya tidak ada pada DB
-  2. Uji penambahan order yang data restaurant id nya tidak ada pada DB
-  3. Uji penambahan order yang data consumer id dan restaurant id ada pada DB
+Penambahan Order (create order)
+  1. Uji Create Order dengan consumer id dan restaurant id yang valid
+  2. Uji Create Order dengan Consumer Id yang Invalid
+  3. Uji Create Order dengan Restaurant Id yang invalid
+  4. Uji Create Order dengan Consumer Id dan Restaurant Id yang invalid
+  5. Uji Create Order dengan membiarkan beberapa field  kosong
      
-Perubahan Order
-  1. Uji perubahan order yang order id nya tidak ada pada DB
-  2. Uji perubahan order yang order id nya ada tetapi menu yang direvisi nya tidak sesuai dengan yang di order
-  3. Uji perubahan order yang order id nya ada dan menu yang direvisi nya sesuai dengan yang di order
+Perubahan Order (revise order)
+  1. Uji Revise Order dengan Order Id dan menuItem Id yang valid
+  2. Uji Revise Order dengan Order Id yang valid dan menuItem Id yang invalid
+  3. Uji Revise Order dengan menuItem Id yang valid dan Order Id yang invalid
+  4. Uji Revise Order dengan Order Id dan menuItem Id yang invalid
      
-Pembatalan Order
-1. Uji pembatalan order yang order id nya tidak ada pada DB 
-2. Uji pembatalan order yang order id nya ada pada DB
+Pembatalan Order (cancel order)
+  1. Uji Cancel Order dengan Order Id yang valid
+  2. Uji Cancel Order dengan Order Id yang invalid
 
 
 ## Test Scenario
