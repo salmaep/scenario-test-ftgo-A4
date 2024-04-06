@@ -104,7 +104,7 @@ Pembatalan Order (cancel order)
 
 ## Pengujian 
 
-- ## Creat Order
+- ## Create Order
   
   Sebelum membuat pesanan, perlu menambahkan data consumer dan data restaurant terlebih dahulu untuk menguji Create Order dengan consumer id dan restaurant id yang valid.
   * Membuat data consumer (POST /consumers create)
